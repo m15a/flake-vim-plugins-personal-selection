@@ -1,0 +1,30 @@
+name: Update Vim plugins
+
+on:
+  schedule:
+    - cron: "15 0 * * *"
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.M15A_GITHUB_PAT }}
+      - uses: cachix/install-nix-action@v26
+        with:
+          github_access_token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: DeterminateSystems/magic-nix-cache-action@v4
+
+      - name: Update Vim plugins
+        env:
+          GITHUB_TOKEN: ${{ secrets.M15A_GITHUB_PAT }}
+        run: |
+          nix develop .#ci-update -c bash -c ./tools/update.fnl
+
+      - uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          file_pattern: 'data/*.json'
+          commit_message: "auto: update vim plugins"

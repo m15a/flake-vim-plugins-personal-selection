@@ -1,0 +1,24 @@
+[
+  {
+    "date": "2024-03-18",
+    "description": "Neovim colorscheme inspired by Srcery",
+    "license": "BSD-3-Clause",
+    "owner": "m15a",
+    "repo": "nvim-srcerite",
+    "rev": "a6e7e1772c68674bb12d3b55da99c1934ed1478a",
+    "sha256": "0qpvc0yb04g0lwymdfn3p5j6df9sq0n6yxgaamf92c19vya03wc3",
+    "site": "github.com",
+    "url": "https://github.com/m15a/nvim-srcerite/archive/a6e7e1772c68674bb12d3b55da99c1934ed1478a.tar.gz"
+  },
+  {
+    "date": "2024-03-18",
+    "description": "Yet another Vim syntax highlighting plugin for Fennel",
+    "license": "MIT",
+    "owner": "m15a",
+    "repo": "vim-fennel-syntax",
+    "rev": "0a325825bec5daf28e14213b9c2d374781a355c7",
+    "sha256": "1pg9aavc1hzymjn8ix4ild9swlr1s2r9lclqiykml17j854h3p06",
+    "site": "github.com",
+    "url": "https://github.com/m15a/vim-fennel-syntax/archive/0a325825bec5daf28e14213b9c2d374781a355c7.tar.gz"
+  }
+]
