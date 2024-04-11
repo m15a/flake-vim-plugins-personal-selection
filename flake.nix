@@ -4,6 +4,11 @@
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
     flake-utils.url = "github:numtide/flake-utils";
+    awesome-neovim-plugins = {
+      url = "github:m15a/flake-awesome-neovim-plugins";
+      inputs.nixpkgs.follows = "nixpkgs";
+      inputs.flake-utils.follows = "flake-utils";
+    };
   };
 
   outputs =
@@ -11,6 +16,7 @@
       self,
       nixpkgs,
       flake-utils,
+      awesome-neovim-plugins,
       ...
     }:
     {
@@ -25,6 +31,7 @@
         pkgs = import nixpkgs {
           inherit system;
           overlays = [
+            awesome-neovim-plugins.overlays.default
             self.overlays.default
             (import ./nix/ci.nix)
           ];

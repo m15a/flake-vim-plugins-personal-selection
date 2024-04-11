@@ -20,5 +20,16 @@
     "sha256": "1pg9aavc1hzymjn8ix4ild9swlr1s2r9lclqiykml17j854h3p06",
     "site": "github.com",
     "url": "https://github.com/m15a/vim-fennel-syntax/archive/0a325825bec5daf28e14213b9c2d374781a355c7.tar.gz"
+  },
+  {
+    "date": "2024-03-28",
+    "description": "A telescope.nvim extension to search and paste bibtex entries into your TeX files.",
+    "license": "MIT",
+    "owner": "nvim-telescope",
+    "repo": "telescope-bibtex.nvim",
+    "rev": "289a6f86ebec06e8ae1590533b732b9981d84900",
+    "sha256": "1sd6p8cvv3dckgrhc7grlyfcibjxhxbfyh0w7p5m4mdcazhy1kqs",
+    "site": "github.com",
+    "url": "https://github.com/nvim-telescope/telescope-bibtex.nvim/archive/289a6f86ebec06e8ae1590533b732b9981d84900.tar.gz"
   }
 ]
