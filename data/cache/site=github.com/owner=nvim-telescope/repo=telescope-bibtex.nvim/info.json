@@ -1,6 +1,0 @@
-{
-  "default_branch": "master",
-  "description": "A telescope.nvim extension to search and paste bibtex entries into your TeX files.",
-  "license": "MIT",
-  "time": 1712825949
-}
