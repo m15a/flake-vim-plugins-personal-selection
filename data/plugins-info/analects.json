@@ -1,14 +1,14 @@
 [
   {
-    "date": "2024-04-16",
+    "date": "2024-04-18",
     "description": "Neovim colorscheme inspired by Srcery",
     "license": "BSD-3-Clause",
     "owner": "m15a",
     "repo": "nvim-srcerite",
-    "rev": "d8a73eed8d4ab1e3b23661e83633271dba44eb23",
-    "sha256": "1j5clqfqjwvyc53jdl2lknxg3rqddwhiv72ks6xrmnbmnpjs7k2k",
+    "rev": "f083fa3bb57570bcf0acd94dcee0212d089262b7",
+    "sha256": "04bww89w40mzsqisn612z1x4y6z8jw99r52yyyv99l2fdhgxnzm4",
     "site": "github.com",
-    "url": "https://github.com/m15a/nvim-srcerite/archive/d8a73eed8d4ab1e3b23661e83633271dba44eb23.tar.gz"
+    "url": "https://github.com/m15a/nvim-srcerite/archive/f083fa3bb57570bcf0acd94dcee0212d089262b7.tar.gz"
   },
   {
     "date": "2024-03-18",
