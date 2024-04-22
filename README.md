@@ -18,4 +18,15 @@ Copyright (c) 2021–2024 NACAMURA Mitsuhiro and contributors.
 
 [1]: https://github.com/m15a/flake-awesome-neovim-plugins
 
+[`./data/plugins-info/analects.json`](data/plugins-info/analects.json)
+is collected from various code hosting services by using their API.
+Each part of the data has respective copyright and permission to use.
+For more information about the permissible data use and content rights,
+see each service's terms of use:
+
+- [GitHub](https://docs.github.com/en/site-policy/github-terms/github-terms-of-service)
+- [GitLab](https://handbook.gitlab.com/handbook/legal/api-terms/)
+- [sourcehut](https://man.sr.ht/terms.md)
+- [Codeberg](https://codeberg.org/codeberg/org/src/branch/main/TermsOfUse.md)
+
 <!-- vim:set tw=72 spell nowrap: -->
