@@ -19,13 +19,13 @@
       awesome-neovim-plugins,
       ...
     }:
+    let
+      inherit (flake-utils.lib) eachDefaultSystem filterPackages;
+    in
     {
-      overlays = rec {
-        vim-plugin-analects = import ./nix/overlay.nix;
-        default = vim-plugin-analects;
-      };
+      overlays.default = import ./nix/overlay.nix;
     }
-    // flake-utils.lib.eachDefaultSystem (
+    // eachDefaultSystem (
       system:
       let
         pkgs = import nixpkgs {
@@ -38,20 +38,9 @@
         };
       in
       rec {
-        packages = flake-utils.lib.filterPackages system pkgs.vimPluginAnalects;
-
-        checks = packages;
-
-        devShells = {
-          inherit (pkgs) ci-update ci-check-format;
-          default = pkgs.mkShell {
-            inputsFrom = [
-              pkgs.ci-update
-              pkgs.ci-check-format
-            ];
-            packages = [ pkgs.fennel-ls ] ++ (with pkgs.luajit.pkgs; [ readline ]);
-          };
-        };
+        packages = filterPackages system pkgs.vimPluginAnalects;
+        checks = packages // pkgs.checks;
+        inherit (pkgs) devShells;
       }
     );
 }
