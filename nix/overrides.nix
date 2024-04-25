@@ -5,12 +5,21 @@ let
 
   dependencies =
     self: super:
-    lib.mapAttrs (
-      attrName: dependencies:
-      super.${attrName}.overrideAttrs (_: {
-        inherit dependencies;
-      })
-    ) { telescope-bibtex-nvim = [ awesomeNeovimPlugins.telescope-nvim ]; };
+    lib.mapAttrs
+      (
+        attrName: dependencies:
+        super.${attrName}.overrideAttrs (_: {
+          inherit dependencies;
+        })
+      )
+      (
+        with awesomeNeovimPlugins;
+        {
+          nvim-srcerite = [ nvim-highlite ];
+          telescope-heading-nvim = [ telescope-nvim ];
+          telescope-bibtex-nvim = [ telescope-nvim ];
+        }
+      );
 
   andMore = self: super: { };
 in
