@@ -1,5 +1,16 @@
 [
   {
+    "date": "2024-01-01",
+    "description": "Vim plugin for email management.",
+    "homepage": "https://git.sr.ht/~soywod/himalaya-vim",
+    "owner": "~soywod",
+    "repo": "himalaya-vim",
+    "rev": "d33295fe9b9ad2247b9e88eda2842eb2c0d9f078",
+    "sha256": "03gk6f7m6jdf70msz8vidqpk7npm768bf7m95i6yyii3bhyvkrsy",
+    "site": "git.sr.ht",
+    "url": "https://git.sr.ht/~soywod/himalaya-vim/archive/d33295fe9b9ad2247b9e88eda2842eb2c0d9f078.tar.gz"
+  },
+  {
     "date": "2024-04-22",
     "description": "Neovim colorscheme inspired by Srcery",
     "license": "BSD-3-Clause",
