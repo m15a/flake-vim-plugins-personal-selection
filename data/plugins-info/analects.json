@@ -1,14 +1,14 @@
 [
   {
-    "date": "2024-01-01",
+    "date": "2024-05-15",
     "description": "Vim plugin for email management.",
     "homepage": "https://git.sr.ht/~soywod/himalaya-vim",
     "owner": "~soywod",
     "repo": "himalaya-vim",
-    "rev": "d33295fe9b9ad2247b9e88eda2842eb2c0d9f078",
-    "sha256": "03gk6f7m6jdf70msz8vidqpk7npm768bf7m95i6yyii3bhyvkrsy",
+    "rev": "7d839d4ddb24b76fff748ebabf8a538c8cf79953",
+    "sha256": "16zc99nhmbq9hpb7f82n259xm2az7l6wv9cxjdrs17qg79pvvw58",
     "site": "git.sr.ht",
-    "url": "https://git.sr.ht/~soywod/himalaya-vim/archive/d33295fe9b9ad2247b9e88eda2842eb2c0d9f078.tar.gz"
+    "url": "https://git.sr.ht/~soywod/himalaya-vim/archive/7d839d4ddb24b76fff748ebabf8a538c8cf79953.tar.gz"
   },
   {
     "date": "2024-05-13",
