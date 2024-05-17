@@ -1,5 +1,16 @@
 [
   {
+    "date": "2024-04-09",
+    "description": "LUA port of tpope's famous vim-unimpaired plugin",
+    "license": "Apache-2.0",
+    "owner": "tummetott",
+    "repo": "unimpaired.nvim",
+    "rev": "8e504ba95dd10a687f4e4dacd5e19db221b88534",
+    "sha256": "0k3nc0w37isf9582n4afhab1p78k8mi6nagfwfdyn5c1c0xhvi9c",
+    "site": "github.com",
+    "url": "https://github.com/tummetott/unimpaired.nvim/archive/8e504ba95dd10a687f4e4dacd5e19db221b88534.tar.gz"
+  },
+  {
     "date": "2024-05-15",
     "description": "Vim plugin for email management.",
     "homepage": "https://git.sr.ht/~soywod/himalaya-vim",
