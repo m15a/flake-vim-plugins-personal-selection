@@ -55,14 +55,14 @@
     "url": "https://github.com/nvim-telescope/telescope-bibtex.nvim/archive/289a6f86ebec06e8ae1590533b732b9981d84900.tar.gz"
   },
   {
-    "date": "2023-09-03",
+    "date": "2024-06-11",
     "description": "An extension for telescope.nvim that allows you to switch between headings",
     "license": "MIT",
     "owner": "crispgm",
     "repo": "telescope-heading.nvim",
-    "rev": "23ce2c9ef252aecbaa37300c1209b5ef2b51e6c5",
-    "sha256": "1a8b7d6cds41f2vq7wv3jc9ia2lcg82bzibx4xa2wvbz1h90n606",
+    "rev": "e85c0f69cb64048f56e76548dcb2f10277576df9",
+    "sha256": "0qc5hq7dmj64x769ldl3dq6izvcq08akrxadnc41psx0bi7p2n7a",
     "site": "github.com",
-    "url": "https://github.com/crispgm/telescope-heading.nvim/archive/23ce2c9ef252aecbaa37300c1209b5ef2b51e6c5.tar.gz"
+    "url": "https://github.com/crispgm/telescope-heading.nvim/archive/e85c0f69cb64048f56e76548dcb2f10277576df9.tar.gz"
   }
 ]
