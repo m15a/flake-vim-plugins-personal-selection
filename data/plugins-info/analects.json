@@ -22,15 +22,15 @@
     "url": "https://git.sr.ht/~soywod/himalaya-vim/archive/cea041c927a04a841aea53abcedd4a0d153d4ca8.tar.gz"
   },
   {
-    "date": "2024-05-13",
+    "date": "2024-10-26",
     "description": "Neovim colorscheme inspired by Srcery",
     "license": "BSD-3-Clause",
     "owner": "m15a",
     "repo": "nvim-srcerite",
-    "rev": "c9419b6efa1ecadadf41bc2b53c1f3e8219ca5aa",
-    "sha256": "09hkh61r053gq58i2s2ag1bv6is7ln5jf7whp0fgsmhr7df693yd",
+    "rev": "9835d7d6ebe1750834f182ebc347cb28426b88fa",
+    "sha256": "1dajjrkly700ijw6g05bz6gsrfar99dmqwcp179hvxayxgsgl80l",
     "site": "github.com",
-    "url": "https://github.com/m15a/nvim-srcerite/archive/c9419b6efa1ecadadf41bc2b53c1f3e8219ca5aa.tar.gz"
+    "url": "https://github.com/m15a/nvim-srcerite/archive/9835d7d6ebe1750834f182ebc347cb28426b88fa.tar.gz"
   },
   {
     "date": "2024-03-18",
