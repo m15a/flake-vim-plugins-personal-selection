@@ -11,15 +11,9 @@
     "url": "https://github.com/tummetott/unimpaired.nvim/archive/8e504ba95dd10a687f4e4dacd5e19db221b88534.tar.gz"
   },
   {
-    "date": "2024-05-27",
-    "description": "Vim plugin for email management.",
-    "homepage": "https://git.sr.ht/~soywod/himalaya-vim",
-    "owner": "~soywod",
+    "owner": "pimalaya",
     "repo": "himalaya-vim",
-    "rev": "cea041c927a04a841aea53abcedd4a0d153d4ca8",
-    "sha256": "1074cq82bybdblhirhcslhsizkxscljkcfssl8570m8lzsmz4xw1",
-    "site": "git.sr.ht",
-    "url": "https://git.sr.ht/~soywod/himalaya-vim/archive/cea041c927a04a841aea53abcedd4a0d153d4ca8.tar.gz"
+    "site": "github.com"
   },
   {
     "date": "2024-10-26",
