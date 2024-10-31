@@ -11,9 +11,16 @@
     "url": "https://github.com/tummetott/unimpaired.nvim/archive/8e504ba95dd10a687f4e4dacd5e19db221b88534.tar.gz"
   },
   {
+    "date": "2024-09-10",
+    "description": "Vim frontend for Himalaya CLI email client",
+    "homepage": "https://github.com/pimalaya",
+    "license": "MIT",
     "owner": "pimalaya",
     "repo": "himalaya-vim",
-    "site": "github.com"
+    "rev": "f25c003e8fe532348b4080bf8d738cfa1bbf1f5f",
+    "sha256": "0v5vdrfhip7dmxpib1qibdblg3lj5j9a2fx9k6mxz8v0d2vrnc7q",
+    "site": "github.com",
+    "url": "https://github.com/pimalaya/himalaya-vim/archive/f25c003e8fe532348b4080bf8d738cfa1bbf1f5f.tar.gz"
   },
   {
     "date": "2024-10-26",
