@@ -35,9 +35,7 @@ let
       };
     };
 
-  pluginsInfo = lib.strings.fromJSON (
-    lib.readFile ../data/plugins-info/analects.json
-  );
+  pluginsInfo = lib.strings.fromJSON (lib.readFile ../data/plugins/analects.json);
 
   origin = builtins.listToAttrs (
     map builder (lib.filter utils.isValidPluginInfo pluginsInfo)

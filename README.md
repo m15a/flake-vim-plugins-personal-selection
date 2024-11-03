@@ -18,7 +18,7 @@ Copyright (c) 2021–2024 NACAMURA Mitsuhiro and contributors.
 
 [1]: https://github.com/m15a/flake-awesome-neovim-plugins
 
-[`./data/plugins-info/analects.json`](data/plugins-info/analects.json)
+[`./data/plugins/analects.json`](data/plugins/analects.json)
 is collected from various code hosting services by using their API.
 Each part of the data has respective copyright and permission to use.
 For more information about the permissible data use and content rights,
