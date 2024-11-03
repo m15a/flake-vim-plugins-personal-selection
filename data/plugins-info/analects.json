@@ -34,15 +34,15 @@
     "url": "https://github.com/m15a/nvim-srcerite/archive/9835d7d6ebe1750834f182ebc347cb28426b88fa.tar.gz"
   },
   {
-    "date": "2024-11-01",
+    "date": "2024-11-02",
     "description": "Yet another Vim syntax highlighting plugin for Fennel",
     "license": "MIT",
     "owner": "m15a",
     "repo": "vim-fennel-syntax",
-    "rev": "a60b5fd4f3e8177b500a2744dca26c75dc808e1d",
-    "sha256": "1k0v4hx4x3q9gjp76qzpz48fckfzhmh9806drq401jaf68nhcymj",
+    "rev": "dbed066ae725fb0136e2233c66a7dbfe1c63c3a0",
+    "sha256": "0w2kflkc2sfxahflqcrc4ng6rzgw21ydvs31cm440vwcknx7ddz5",
     "site": "github.com",
-    "url": "https://github.com/m15a/vim-fennel-syntax/archive/a60b5fd4f3e8177b500a2744dca26c75dc808e1d.tar.gz"
+    "url": "https://github.com/m15a/vim-fennel-syntax/archive/dbed066ae725fb0136e2233c66a7dbfe1c63c3a0.tar.gz"
   },
   {
     "date": "2024-03-28",
