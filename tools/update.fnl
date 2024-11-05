@@ -390,12 +390,12 @@
                   :data {}})
 
 (fn *plugins*.init! [self]
-  (set hub.data *plugins*.data)
+  (set hub.data self.data)
   (case (json.file->decoded self.path)
     plugins (each [_ plugin (ipairs plugins)]
               (let [{: site : owner : repo} plugin
                     key (.. site "/" owner "/" repo)]
-                (tset *plugins*.data key plugin)))
+                (tset self.data key plugin)))
     _ (log:error/exit "Failed to load plugins")))
 
 (*plugins*:init!)
