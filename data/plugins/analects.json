@@ -1,26 +1,14 @@
 [
   {
-    "date": "2024-04-09",
-    "description": "LUA port of tpope's famous vim-unimpaired plugin",
-    "license": "Apache-2.0",
-    "owner": "tummetott",
-    "repo": "unimpaired.nvim",
-    "rev": "8e504ba95dd10a687f4e4dacd5e19db221b88534",
-    "sha256": "0k3nc0w37isf9582n4afhab1p78k8mi6nagfwfdyn5c1c0xhvi9c",
-    "site": "github.com",
-    "url": "https://github.com/tummetott/unimpaired.nvim/archive/8e504ba95dd10a687f4e4dacd5e19db221b88534.tar.gz"
-  },
-  {
-    "date": "2024-09-10",
-    "description": "Vim frontend for Himalaya CLI email client",
-    "homepage": "https://github.com/pimalaya",
+    "date": "2024-06-11",
+    "description": "An extension for telescope.nvim that allows you to switch between headings",
     "license": "MIT",
-    "owner": "pimalaya",
-    "repo": "himalaya-vim",
-    "rev": "f25c003e8fe532348b4080bf8d738cfa1bbf1f5f",
-    "sha256": "0v5vdrfhip7dmxpib1qibdblg3lj5j9a2fx9k6mxz8v0d2vrnc7q",
+    "owner": "crispgm",
+    "repo": "telescope-heading.nvim",
+    "rev": "e85c0f69cb64048f56e76548dcb2f10277576df9",
+    "sha256": "0qc5hq7dmj64x769ldl3dq6izvcq08akrxadnc41psx0bi7p2n7a",
     "site": "github.com",
-    "url": "https://github.com/pimalaya/himalaya-vim/archive/f25c003e8fe532348b4080bf8d738cfa1bbf1f5f.tar.gz"
+    "url": "https://github.com/crispgm/telescope-heading.nvim/archive/e85c0f69cb64048f56e76548dcb2f10277576df9.tar.gz"
   },
   {
     "date": "2024-10-26",
@@ -56,14 +44,26 @@
     "url": "https://github.com/nvim-telescope/telescope-bibtex.nvim/archive/289a6f86ebec06e8ae1590533b732b9981d84900.tar.gz"
   },
   {
-    "date": "2024-06-11",
-    "description": "An extension for telescope.nvim that allows you to switch between headings",
+    "date": "2024-09-10",
+    "description": "Vim frontend for Himalaya CLI email client",
+    "homepage": "https://github.com/pimalaya",
     "license": "MIT",
-    "owner": "crispgm",
-    "repo": "telescope-heading.nvim",
-    "rev": "e85c0f69cb64048f56e76548dcb2f10277576df9",
-    "sha256": "0qc5hq7dmj64x769ldl3dq6izvcq08akrxadnc41psx0bi7p2n7a",
+    "owner": "pimalaya",
+    "repo": "himalaya-vim",
+    "rev": "f25c003e8fe532348b4080bf8d738cfa1bbf1f5f",
+    "sha256": "0v5vdrfhip7dmxpib1qibdblg3lj5j9a2fx9k6mxz8v0d2vrnc7q",
     "site": "github.com",
-    "url": "https://github.com/crispgm/telescope-heading.nvim/archive/e85c0f69cb64048f56e76548dcb2f10277576df9.tar.gz"
+    "url": "https://github.com/pimalaya/himalaya-vim/archive/f25c003e8fe532348b4080bf8d738cfa1bbf1f5f.tar.gz"
+  },
+  {
+    "date": "2024-04-09",
+    "description": "LUA port of tpope's famous vim-unimpaired plugin",
+    "license": "Apache-2.0",
+    "owner": "tummetott",
+    "repo": "unimpaired.nvim",
+    "rev": "8e504ba95dd10a687f4e4dacd5e19db221b88534",
+    "sha256": "0k3nc0w37isf9582n4afhab1p78k8mi6nagfwfdyn5c1c0xhvi9c",
+    "site": "github.com",
+    "url": "https://github.com/tummetott/unimpaired.nvim/archive/8e504ba95dd10a687f4e4dacd5e19db221b88534.tar.gz"
   }
 ]
