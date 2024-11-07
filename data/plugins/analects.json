@@ -1,5 +1,16 @@
 [
   {
+    "date": "2024-04-10",
+    "description": "A minimal plugin for NeoVim for aligning lines",
+    "license": "GPL-3.0",
+    "owner": "Vonr",
+    "repo": "align.nvim",
+    "rev": "12ed24b34df81d57e777fea5a535611bab10a620",
+    "sha256": "0ki3aihn8sxy3xpk366l6bmqvr95d5vszx5v38s0nqg2v7k0cayc",
+    "site": "github.com",
+    "url": "https://github.com/Vonr/align.nvim/archive/12ed24b34df81d57e777fea5a535611bab10a620.tar.gz"
+  },
+  {
     "date": "2024-06-11",
     "description": "An extension for telescope.nvim that allows you to switch between headings",
     "license": "MIT",
