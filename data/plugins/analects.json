@@ -55,16 +55,16 @@
     "url": "https://github.com/nvim-telescope/telescope-bibtex.nvim/archive/289a6f86ebec06e8ae1590533b732b9981d84900.tar.gz"
   },
   {
-    "date": "2024-12-10",
+    "date": "2024-12-31",
     "description": "Vim frontend for Himalaya CLI email client",
     "homepage": "https://github.com/pimalaya",
     "license": "MIT",
     "owner": "pimalaya",
     "repo": "himalaya-vim",
-    "rev": "0e5d3395441301538c1830366f3212ed55b1d315",
-    "sha256": "0l61r4kcx2740mjn3jjz3mrz9mqxhlsa9qf3a796i325nidr3ny3",
+    "rev": "9b40128ff15747578b112c16be630abde3bf2570",
+    "sha256": "0c7yqk2m67bwgpskz7nwr82gvzwb25k0hf1wpi6w31q0pk4rx9li",
     "site": "github.com",
-    "url": "https://github.com/pimalaya/himalaya-vim/archive/0e5d3395441301538c1830366f3212ed55b1d315.tar.gz"
+    "url": "https://github.com/pimalaya/himalaya-vim/archive/9b40128ff15747578b112c16be630abde3bf2570.tar.gz"
   },
   {
     "date": "2024-04-09",
