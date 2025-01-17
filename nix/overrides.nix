@@ -16,7 +16,6 @@ let
         with awesomeNeovimPlugins;
         {
           nvim-srcerite = [ nvim-highlite ];
-          telescope-heading-nvim = [ telescope-nvim ];
           telescope-bibtex-nvim = [ telescope-nvim ];
         }
       );

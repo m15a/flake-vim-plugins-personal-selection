@@ -11,17 +11,6 @@
     "url": "https://github.com/Vonr/align.nvim/archive/12ed24b34df81d57e777fea5a535611bab10a620.tar.gz"
   },
   {
-    "date": "2024-06-11",
-    "description": "An extension for telescope.nvim that allows you to switch between headings",
-    "license": "MIT",
-    "owner": "crispgm",
-    "repo": "telescope-heading.nvim",
-    "rev": "e85c0f69cb64048f56e76548dcb2f10277576df9",
-    "sha256": "0qc5hq7dmj64x769ldl3dq6izvcq08akrxadnc41psx0bi7p2n7a",
-    "site": "github.com",
-    "url": "https://github.com/crispgm/telescope-heading.nvim/archive/e85c0f69cb64048f56e76548dcb2f10277576df9.tar.gz"
-  },
-  {
     "date": "2024-10-26",
     "description": "Neovim colorscheme inspired by Srcery",
     "license": "BSD-3-Clause",
