@@ -54,16 +54,5 @@
     "sha256": "060kjfzky97jl00g4smxml8ldcpbvd0cd5q121wja2pc16mkc9f9",
     "site": "github.com",
     "url": "https://github.com/pimalaya/himalaya-vim/archive/bb8d0ebbe82b1ba1d487354fab86d81f12a82c4d.tar.gz"
-  },
-  {
-    "date": "2024-04-09",
-    "description": "LUA port of tpope's famous vim-unimpaired plugin",
-    "license": "Apache-2.0",
-    "owner": "tummetott",
-    "repo": "unimpaired.nvim",
-    "rev": "8e504ba95dd10a687f4e4dacd5e19db221b88534",
-    "sha256": "0k3nc0w37isf9582n4afhab1p78k8mi6nagfwfdyn5c1c0xhvi9c",
-    "site": "github.com",
-    "url": "https://github.com/tummetott/unimpaired.nvim/archive/8e504ba95dd10a687f4e4dacd5e19db221b88534.tar.gz"
   }
 ]
