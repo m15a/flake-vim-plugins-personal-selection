@@ -23,7 +23,7 @@ let
   andMore = self: super: { };
 in
 {
-  vimPluginAnalects = prev.vimPluginAnalects.extend (
+  vimPluginsPersonalSelection = prev.vimPluginsPersonalSelection.extend (
     lib.composeManyExtensions [
       dependencies
       andMore

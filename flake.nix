@@ -38,7 +38,7 @@
         };
       in
       rec {
-        packages = filterPackages system pkgs.vimPluginAnalects;
+        packages = filterPackages system pkgs.vimPluginsPersonalSelection;
         checks = packages // pkgs.checks;
         inherit (pkgs) devShells;
       }

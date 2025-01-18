@@ -1,11 +1,11 @@
-# flake-vim-plugin-analects
+# flake-vim-plugins-personal-selection
 
 A collection of Vim/Neovim plugins I use, as a Nix flake.
 
 [![CI][b1]][b2]
 
-[b1]: https://img.shields.io/github/actions/workflow/status/m15a/flake-vim-plugin-analects/check.yml?style=flat-square&logo=github&label=CI
-[b2]: https://github.com/m15a/flake-vim-plugin-analects/actions/workflows/check.yml
+[b1]: https://img.shields.io/github/actions/workflow/status/m15a/flake-vim-plugins-personal-selection/check.yml?style=flat-square&logo=github&label=CI
+[b2]: https://github.com/m15a/flake-vim-plugins-personal-selection/actions/workflows/check.yml
 
 ## Licenses
 
@@ -18,7 +18,7 @@ Copyright (c) 2021–2024 NACAMURA Mitsuhiro and contributors.
 
 [1]: https://github.com/m15a/flake-awesome-neovim-plugins
 
-[`./data/plugins/analects.json`](data/plugins/analects.json)
+[`./data/plugins/personal-selection.json`](data/plugins/personal-selection.json)
 is collected from various code hosting services by using their API.
 Each part of the data has respective copyright and permission to use.
 For more information about the permissible data use and content rights,

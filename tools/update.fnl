@@ -407,7 +407,7 @@
   {:rev commit.id :timestamp commit.timestamp})
 
 
-(local *plugins* {:path "data/plugins/analects.json"
+(local *plugins* {:path "data/plugins/personal-selection.json"
                   :data {}})
 
 (fn *plugins*.init! [self]

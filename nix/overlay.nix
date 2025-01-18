@@ -4,6 +4,6 @@ let
   inherit (prev) lib;
 in
 lib.composeManyExtensions [
-  (import ./vim-plugin-analects.nix)
+  (import ./vim-plugins-personal-selection.nix)
   (import ./overrides.nix)
 ] final prev
