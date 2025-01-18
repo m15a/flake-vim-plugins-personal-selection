@@ -9,6 +9,8 @@
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.flake-utils.follows = "flake-utils";
     };
+    treefmt-nix.url = "github:numtide/treefmt-nix";
+    treefmt-nix.inputs.nixpkgs.follows = "nixpkgs";
   };
 
   outputs =
@@ -17,6 +19,7 @@
       nixpkgs,
       flake-utils,
       awesome-neovim-plugins,
+      treefmt-nix,
       ...
     }:
     let
@@ -33,13 +36,17 @@
           overlays = [
             awesome-neovim-plugins.overlays.default
             self.overlays.default
-            (import ./nix/ci.nix)
+            (import ./nix/dev-shells.nix)
           ];
         };
+        treefmt = treefmt-nix.lib.evalModule pkgs ./treefmt.nix;
       in
       rec {
         packages = filterPackages system pkgs.vimPluginsPersonalSelection;
-        checks = packages // pkgs.checks;
+        formatter = treefmt.config.build.wrapper;
+        checks = packages // {
+          format = treefmt.config.build.check self;
+        };
         inherit (pkgs) devShells;
       }
     );
