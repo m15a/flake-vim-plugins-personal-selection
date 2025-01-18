@@ -35,12 +35,16 @@ let
       };
     };
 
-  pluginsInfo = lib.strings.fromJSON (lib.readFile ../data/plugins/personal-selection.json);
+  pluginsInfo = lib.strings.fromJSON (
+    lib.readFile ../data/plugins/personal-selection.json
+  );
 
   origin = builtins.listToAttrs (
     map builder (lib.filter utils.isValidPluginInfo pluginsInfo)
   );
 in
 {
-  vimPluginsPersonalSelection = lib.makeExtensible (_: lib.recurseIntoAttrs origin);
+  vimPluginsPersonalSelection = lib.makeExtensible (
+    _: lib.recurseIntoAttrs origin
+  );
 }
