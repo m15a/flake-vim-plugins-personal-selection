@@ -11,15 +11,15 @@
     "url": "https://github.com/Vonr/align.nvim/archive/12ed24b34df81d57e777fea5a535611bab10a620.tar.gz"
   },
   {
-    "date": "2024-10-26",
+    "date": "2025-01-18",
     "description": "Neovim colorscheme inspired by Srcery",
     "license": "BSD-3-Clause",
     "owner": "m15a",
     "repo": "nvim-srcerite",
-    "rev": "9835d7d6ebe1750834f182ebc347cb28426b88fa",
-    "sha256": "1dajjrkly700ijw6g05bz6gsrfar99dmqwcp179hvxayxgsgl80l",
+    "rev": "841ff4f806f47ee692d4b95d0e4f582ae1d69703",
+    "sha256": "07c42lxwqfy7rsshswrxlk5r4c65gs52sn9pzxmlq5vcigbb9dmw",
     "site": "github.com",
-    "url": "https://github.com/m15a/nvim-srcerite/archive/9835d7d6ebe1750834f182ebc347cb28426b88fa.tar.gz"
+    "url": "https://github.com/m15a/nvim-srcerite/archive/841ff4f806f47ee692d4b95d0e4f582ae1d69703.tar.gz"
   },
   {
     "date": "2024-11-02",
