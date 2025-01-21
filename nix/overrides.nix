@@ -1,7 +1,7 @@
 final: prev:
 
 let
-  inherit (final) lib awesomeNeovimPlugins;
+  inherit (final) lib;
 
   dependencies =
     self: super:
@@ -12,13 +12,8 @@ let
           inherit dependencies;
         })
       )
-      (
-        with awesomeNeovimPlugins;
-        {
-          nvim-srcerite = [ nvim-highlite ];
-          telescope-bibtex-nvim = [ telescope-nvim ];
-        }
-      );
+      {
+      };
 
   andMore = self: super: { };
 in
